@@ -136,7 +136,7 @@ async function handleRequest(request) {
       },
     });
   } else {
-    return fetch(request);
+    return Response.redirect('https://github.com/Kisechan/skill-icons', 302);
   }
 }
 
